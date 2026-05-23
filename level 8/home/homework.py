@@ -11,7 +11,7 @@ print(2>3)
 print(89<67)
 
 #for loop gvexmareba davprintot mnishvneloba imdenjer ramdenjerac gvinda
-#range-s gadaecema start end da step, axsna mezareba
+#range-s gadaecema start, end da step
 
 for i in range(1,11):
     print("subaru forester")
