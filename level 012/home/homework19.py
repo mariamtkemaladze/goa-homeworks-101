@@ -7,4 +7,4 @@ while i < 5000:
     else:
         print(i)
         
-    i = i + 1         #atvlas ar iwyebs 1-dan da axla gavgijdebi.
+    i = i + 1         
