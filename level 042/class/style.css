@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(255, 12, 73);
+}
+
+
+#div1 {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    position: absolute;
+    right: 0px;
+}
+
+
+#div2 {
+    width: 150px;
+    height: 150px;
+    background-color: pink;
+    position: absolute;
+    left: 0px;
+    bottom: 640px
+}
+
+
+#div3 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(2, 252, 231);
+    position: absolute;
+    bottom: 490px;
+    left: 150px;
+}
