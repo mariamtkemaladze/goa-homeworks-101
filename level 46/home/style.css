@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+#parent {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    display: grid;
+
+    grid-template-columns: 220px 220px 200px ;
+    grid-template-rows: 120px 100px;
+    
+}
+
+.child {
+    width: 200px;
+    height: 100px;
+    background-color: pink;
+    
+    
+    color: white;
+    border-radius: 7px;
+    font-size: 35px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
