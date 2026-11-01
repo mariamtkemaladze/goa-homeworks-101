@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | 3-column preview card component</title>
+
+
+
+  <div id="parent">
+    <div id="cont1" class="cont">
+      <img src="./images/icon-sedans.svg" alt="icon">
+      <div id="text1">
+        <h1 id="title1">SEDANS</h1>
+        <P id="p1">Choose a sedan for its<br> affordability and excellent<br> fuel economy. Ideal for<br> cruising in the city or on<br> your next road trip</P>
+
+      </div>
+      <button id="btn1" class="btn">Learn More</button>
+    </div>
+
+
+    <div id="cont2" class="cont">
+      <img src="./images/icon-suvs.svg" alt="icon2">
+
+      <div id="text2">
+        <h1 id="title2">SUVS</h1>
+        <p id="p2">Take an SUV for its spacious<br> interior, power, and<br> versatility, Perfect for your<br> next family vacation and<br> off-road adventures.</p>
+      </div>
+
+      <button id="btn2" class="btn">Learn More</button>
+    </div>
+
+
+    <div id="cont3" class="cont">
+       <img src="./images/icon-luxury.svg" alt="icon3">
+      <div id="text3">
+        <h1 id="title3">LUXURY</h1>
+        <p id="p3">Cruise in the best car brands<br> without the bloated prices.<br> Enjoy the enhanced comfort<br> of a luxury rental and arrive<br> in style.</p>
+      </div>
+      <button id="btn3" class="btn">Learn More</button>
+    </div>
+
+
+
+
+
+
+  </div>
+
+
+
+
+  <style>
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Life+Savers:wght@400;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&family=Life+Savers:wght@400;700;800&display=swap');
+
+    * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+
+
+    body {
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      
+      
+    }
+
+
+
+
+
+    #cont1 {
+      width: 300px;
+      height: 480px;
+      background-color: hsl(31, 77%, 52%) ;
+      display: flex;
+      flex-direction: column;
+      border-radius: 10px 0px 0px 10px;
+      justify-content: space-around;
+      padding:30px;
+    }
+
+
+
+    #cont2 {
+      width: 300px;
+      height: 480px;
+      background-color:hsl(184, 100%, 22%) ;
+      display: flex;
+      flex-direction: column;
+      padding:30px;
+      justify-content: space-around;
+      
+
+    }
+
+
+    #cont3 {
+      width: 300px;
+      height: 480px;
+      background-color:hsl(179, 100%, 13%) ;
+      display: flex;
+      flex-direction: column;
+      border-radius: 0px 10px 10px 0px;
+      padding:30px;
+      justify-content: space-around;
+
+    }
+
+    .btn {
+      width: 130px;
+      height: 50px;
+      border-radius: 30px;
+      border: none;
+      
+    }
+
+    #btn1 {
+      color:hsl(31, 77%, 52%) ;
+    }
+
+    #btn2 {
+      color:hsl(184, 100%, 22%) ;
+    }
+
+    #btn3 {
+      color:hsl(179, 100%, 13%) ;
+    }
+
+
+    #text1 {
+      color: white;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      
+    }
+
+    #text2 {
+      color: white;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    #text3 {
+      color: white;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+  #parent {
+    display: flex;
+    justify-content: center;    /*esss divebs x gerdze svavs*/
+    align-items: center;
+    
+    
+    
+  }
+
+
+  p {
+    font-size: 15px;
+    font-family:"Lexend Deca" ;
+    font-weight: 700;
+    opacity:60%;
+    
+  }
+
+  h1 {
+    font-family: "Big Shoulders";
+    font-weight:400;
+    font-size: 40px;
+  }
+
+  img {
+    width: 75px;
+    height: 50px
+  }
+
+
+
+  </style>
+</body>
+</html>

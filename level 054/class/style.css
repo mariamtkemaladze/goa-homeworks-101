@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+#box {
+    width: 400px;
+    height: 400px;
+    background-color: pink;
+    border: 1px solid black;
+    transition: 3s;
+}
+
+
+
+#box:hover {
+    background-color: purple;
+    border: 5px dotted red;
+}
+
+
+
+button {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    color: white;
+    transition: 2s;
+}
+
+
+button:hover {
+    background-color: white;
+    color: black;
+}

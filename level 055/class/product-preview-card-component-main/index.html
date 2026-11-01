@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+
+
+  <div id="parent">
+    <img src="./images/image-product-desktop.jpg" id="img" alt="productimg">
+
+
+    <div id="cont2">
+      <p id="p1">PERFUME</p>
+      <h1 id="title">Gabrielle <br> Essence Eau <br> De Parfum</h1>
+      <p id="text">A floral, solar and voluptuous<br> interpretation composed by <br>Olivier Polge, Perfumer-Creator <br>for the House of CHANEL.
+      </p>
+      <div id="box">
+        <h2 id="new">$149.99</h2>
+        <p id="old">$169.99</p>
+      </div>
+      <button id="btn">
+        <img src="./images/icon-cart.svg" id="cart" alt="carticon">
+        <p id="p2">Add to Cart</p>
+      </button>
+    </div>
+  </div>
+  
+
+<style>
+
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&family=Life+Savers:wght@400;700;800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Lexend+Deca:wght@100..900&family=Life+Savers:wght@400;700;800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 241, 227);
+    
+  }
+
+
+  #parent {
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  #cont2 {
+    width: 500px;
+    height: 700px;
+    background-color: white;
+    border-radius: 0px 20px 20px 0px;
+    justify-content: space-around;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+
+  #img {
+    width:470px;
+    height:700px;
+    border-radius: 20px 0px 0px 20px;
+  }
+
+  #p1 {
+    font-family:"Montserrat";
+    color: gray;
+    font-weight: 500;
+    letter-spacing: 5px;
+    font-size: 20px;
+  }
+
+  #title {
+    color: black;
+    font-family: "Fraunces";
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 60px;
+  }
+
+  #text {
+    color: gray;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 22px;
+    word-spacing: 3px;
+    line-height: 35px;
+
+  }
+
+  #new {
+    font-size: 50px;
+    color:hsl(158, 36%, 37%);
+    font-family: "Fraunces";
+  }
+
+  #old{
+    color: gray;
+    font-weight: 500;
+    font-family: "Montserrat";
+    text-decoration: line-through gray;
+  }
+
+  #box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+  }
+
+  #btn {
+    width: 400px;
+    height: 65px;
+    background-color:hsl(158, 36%, 37%);
+    color: white;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    border-radius: 10px;
+    border: none;
+  }
+
+  #p2{ 
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  #cart {
+    width: 20px;
+  }
+
+
+  #btn:hover {
+    background-color:hsl(158, 42%, 18%) ;
+    cursor: pointer;
+  }
+</style>
+
+
+</body>
+</html>
